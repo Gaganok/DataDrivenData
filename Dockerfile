@@ -1,7 +1,7 @@
 FROM alpine
 WORKDIR /root/data
 COPY data.jar /root/data
-COPY train.csv /root/data
+#COPY train.csv /root/data
 
 #Install JDK
 RUN apk add openjdk8
