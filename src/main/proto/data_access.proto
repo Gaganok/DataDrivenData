@@ -1,0 +1,19 @@
+
+syntax = "proto3";
+option java_multiple_files = true;
+package com.cit.data.grcp;
+
+service TweetService {
+    rpc request(TweetRequest) returns (stream TweetResponse);
+}
+
+message TweetRequest {
+    bool flag = 1;
+}
+
+message TweetResponse {
+    int64 id = 1;
+    string data = 2;
+    string user = 3;
+    string tweet = 4;
+}
