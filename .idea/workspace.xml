@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74789dec-aab9-4b1f-a727-7a73a2535367" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.iml" beforeDir="false" afterPath="$PROJECT_DIR$/data.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cit/data/DataApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cit/data/DataApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cit/data/component/TestDataComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cit/data/component/TestDataComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cit/data/controller/RestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cit/data/controller/RestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
@@ -116,50 +120,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="590" y="255" key="#com.intellij.ide.util.ExportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583937216296" />
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1588868368628">
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1588874567904">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588868368628" />
+    <state x="765" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588874567904" />
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584152568828">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584152568828" />
-    <state width="467" height="466" key="DebuggerActiveHint" timestamp="1584203824814">
+    <state width="467" height="466" key="DebuggerActiveHint" timestamp="1588875445071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="467" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1584203824814" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1588868887494">
+    <state width="467" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1588875445071" />
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1588888539174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588868887494" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1588868887494">
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588888539174" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1588888539174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588868887494" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1588868887494">
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588888539174" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1588888539174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588868887494" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1588868887494">
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588888539174" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1588888539174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588868887494" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588868887495">
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588888539174" />
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom" timestamp="1588875929448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588868887495" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1588868887495">
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588875929448" />
+    <state width="1877" height="279" key="GridCell.Tab.1.center" timestamp="1588875929448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588868887495" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1588868887494">
+    <state width="1877" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588875929448" />
+    <state width="1877" height="279" key="GridCell.Tab.1.left" timestamp="1588875929448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588868887494" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1588868887495">
+    <state width="1877" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588875929448" />
+    <state width="1877" height="279" key="GridCell.Tab.1.right" timestamp="1588875929448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588868887495" />
+    <state width="1877" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588875929448" />
     <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1584152397497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,36 +193,54 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/GRPCService.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/GRPCService.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="4" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/GRPCService.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/component/CallableExecutor.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/controller/RestController.java</url>
-          <line>27</line>
-          <properties field="tweetDelay" class="com.cit.data.controller.RestController" />
-          <option name="timeStamp" value="8" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/controller/RestController.java</url>
-          <line>30</line>
-          <properties field="maxTweets" class="com.cit.data.controller.RestController" />
-          <option name="timeStamp" value="9" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/cit/data/service/HttpService.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
