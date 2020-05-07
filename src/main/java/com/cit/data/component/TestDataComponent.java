@@ -170,4 +170,5 @@ public class TestDataComponent {
             "\"0\",\"1467860895\",\"Mon Apr 06 22:32:50 PDT 2009\",\"NO_QUERY\",\"tantrixie\",\"wanttss to go out \"\n" +
             "\"0\",\"1467860904\",\"Mon Apr 06 22:32:51 PDT 2009\",\"NO_QUERY\",\"supersharayah\",\"Is not going to sleep tonite. \"";
 
+    private final String testRedditData = "dd";
 }
