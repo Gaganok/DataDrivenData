@@ -104,7 +104,7 @@ public class RestController {
 
     @GetMapping("/test")
     public String test() throws IOException {
-        test();
+        testTweet();
         testReddit();
         return "Ok";
     }
