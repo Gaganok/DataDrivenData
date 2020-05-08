@@ -21,7 +21,7 @@ import java.util.Map;
 import java.util.StringJoiner;
 
 @Service
-public class HttpService {
+public class HttpService implements ConnectionService{
 
     @Value("${http.reddit.frontend.url}")
     private String frontEndUrl;

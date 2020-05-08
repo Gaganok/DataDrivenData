@@ -5,6 +5,7 @@ import com.cit.data.component.TestDataComponent;
 import com.cit.data.dao.Reddit;
 import com.cit.data.dao.Tweet;
 import com.cit.data.repository.MongoRepository;
+import com.cit.data.service.ConnectionService;
 import com.cit.data.service.GRPCService;
 import com.cit.data.service.HttpService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -49,8 +50,8 @@ public class RestController {
         return "Ok";
     }
 
-    @GetMapping("/test")
-    public String test() throws IOException {
+    @GetMapping("/test-tweet")
+    public String testTweet() throws IOException {
         executor.call(new Runnable() {
             @Override
             public void run() {
@@ -69,7 +70,7 @@ public class RestController {
             }
         });
 
-        return "Ok";
+        return "Ok (Tweet)";
     }
 
     @GetMapping("/test-reddit")
@@ -80,7 +81,7 @@ public class RestController {
                 BufferedReader br = new BufferedReader(new StringReader(testTweetData.getTestRedditData()));
                 //BufferedReader br = testTweetData.getTestFileData();
                 Iterator<String> itr = br.lines().iterator();
-                for (int i = 0; i < 50; i++) {
+                for (int i = 0; i < maxTweets; i++) {
                     if (itr.hasNext()) {
                         try {
                             httpService.sendReddit(new Reddit(itr.next()));
@@ -101,9 +102,17 @@ public class RestController {
         return "Ok (Reddit)";
     }
 
+    @GetMapping("/test")
+    public String test() throws IOException {
+        test();
+        testReddit();
+        return "Ok";
+    }
+
     @GetMapping("/complete")
     public String complete() throws IOException {
         grpcService.completeAll();
         return "Ok";
     }
+
 }

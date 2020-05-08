@@ -21,7 +21,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 
 @Service
-public class GRPCService extends TweetServiceGrpc.TweetServiceImplBase{
+public class GRPCService extends TweetServiceGrpc.TweetServiceImplBase implements ConnectionService{
 
     @Value("${grpc.tweet.server}")
     private int port;
