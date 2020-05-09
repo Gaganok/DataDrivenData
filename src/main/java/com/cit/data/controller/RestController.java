@@ -50,6 +50,14 @@ public class RestController {
         return "Ok";
     }
 
+    @GetMapping("/reddit")
+    public String reddit(@RequestParam(name = "reddit") String redditData) throws IOException {
+        Reddit reddit = new Reddit(redditData);
+        //mongoRepository.save(reddit);
+        httpService.sendReddit(reddit);
+        return "Ok";
+    }
+
     @GetMapping("/test-tweet")
     public String testTweet() throws IOException {
         executor.call(new Runnable() {

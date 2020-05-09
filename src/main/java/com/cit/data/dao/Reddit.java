@@ -1,12 +1,17 @@
 package com.cit.data.dao;
 
+import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.experimental.FieldDefaults;
 import org.springframework.data.annotation.Id;
 
-@Getter @Setter
+@Getter
+@Setter
+@FieldDefaults(level= AccessLevel.PRIVATE)
 public class Reddit {
 
+    @Id
     String id;
     String title;
     int score;
